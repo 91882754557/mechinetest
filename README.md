@@ -1,22 +1,17 @@
-
-Install XAMPP or WAMPP.
-
-Open XAMPP Control panal and start [apache] and [mysql] .
-
+Event-site
+Application of store employee details
+Installation
+1.	Install XAMPP or WAMPP.
+2.	Open XAMPP Control panal and start [apache] and [mysql] .
+3.	Download project from github https://github.com/91882754557/mechinetest.git
+OR follow gitbash commands
 i>cd C:\xampp\htdocs\
+4.	extract files in C:\xampp\htdocs.
+5.	open link localhost/phpmyadmin
+6.	click on new at side navbar.
+7.	give a database name as (organization). 
+8.	after creating database name click on import.
+9.	browse the file in directory  organization.sql
+10.	open link file:///C:/xampp/htdocs/machinetest/index.php
 
-open link localhost/phpmyadmin
 
-Create a Database name as Organization
-
-after creating database name click on import.
-
-browse the file in directory[event-management/database/events.sql].
-
-after importing successfully.
-
-open any browser and type http://localhost/event-management-master.
-
-first register and then login
-
-admin login details Email=admin@gmail.com and Password=123456789.
